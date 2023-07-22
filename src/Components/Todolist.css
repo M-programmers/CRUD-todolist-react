@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background-color: rgb(228, 227, 227);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputSearch {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(72, 72, 255);
+    outline: none;
+    width: 415px;
+}
+
+.addButton {
+    padding: 8px;
+    background: rgb(72, 72, 255);
+    color: white;
+    width: 125px;
+    border: 1px solid rgb(72, 72, 255);
+    border-radius: 4px;
+    margin-left: 5px;
+    transition: 0.3s ;
+}
+
+.addButton:hover {
+    background: rgb(166, 166, 226);
+    transition: all .3s ease-in;
+    border: 1px solid rgb(137, 137, 231);
+}
+
+.main-menu {
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 15px;
+    width: 550px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.main-menu p {
+    padding: 5px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu .edit {
+    color: white;
+    padding: 8px;
+    background: rgb(43, 196, 43);
+    border: 1px solid rgb(43, 196, 43);
+    border-radius: 4px;
+    transition: 0.3s ;
+    width: 60px;
+}
+
+.main-menu .delete {
+    color: white;
+    padding: 8px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    transition: 0.3s ;
+    width: 60px;
+}
+
+.main-menu .edit:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease ;
+}
+
+.main-menu .delete:hover {
+    transform: scale(1.1);
+    transition: 0.3s ;
+}
+
+.main-menu Button {
+    margin-left: 5px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .modal-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .delete-confirm {
+    color: white;
+    padding: 8px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    transition: 0.3s ;
+}
+  .update-confirm {
+    color: white;
+    padding: 8px;
+    background: rgb(43, 196, 43);
+    border: 1px solid rgb(43, 196, 43);
+    border-radius: 4px;
+    transition: 0.3s ;
+  }
+  .delete-cancel {
+    color: white;
+    padding: 8px;
+    background: rgb(43, 196, 43);
+    border: 1px solid rgb(43, 196, 43);
+    border-radius: 4px;
+    transition: 0.3s ;
+  }
+
+  .update-cancel {
+    color: white;
+    padding: 8px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    transition: 0.3s ;  
+  }
+
+  .modal input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 270px;
+    outline: none;
+  }
